@@ -1,4 +1,4 @@
-### Recursive Deep Filter
+### Word Bank
 
 #### 7 Points
 
@@ -34,7 +34,9 @@ findAndReplace('hello', 'goodbye');
 findAndReplace('hello'); // returns 'goodbye'
 ```
 
+
 <hr>
+
 
 ```js
 const findAndReplace = wordBank();
