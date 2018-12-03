@@ -1,3 +1,6 @@
+/* eslint-env jasmine */
+/* eslint-disable no-undef */
+
 describe('recursiveDeepFilter', () => {
   it('returns an array', () => {
     const valueReturned = recursiveDeepFilter([1, 2, 3, 4], num => {
