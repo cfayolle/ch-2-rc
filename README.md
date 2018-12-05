@@ -18,8 +18,8 @@ http://localhost:7357/
 
 - 00 Reduce: 5.00
 - 01 Recursive Deep Filter:  8.00 
-- 03 - A Quarter: 7.00
-  - Note: the last test spec is +2 points extra credit. The whole problem is not extra credit, only the last test spec.
+- 02 Word Bank: 7.00
+  
 
 ### Submission
 
