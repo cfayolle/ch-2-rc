@@ -1,6 +1,6 @@
 ### Word Bank
 
-#### 7 Points
+#### 8 Points
 
 Create the function `wordBank` that accepts no arguments and returns a function. The **function returned** from `wordBank` will either accept two strings, or one string.
 
