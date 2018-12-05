@@ -18,7 +18,7 @@ http://localhost:7357/
 
 - 00 Reduce: 5.00
 - 01 Recursive Deep Filter:  8.00 
-- 02 Word Bank: 7.00
+- 02 Word Bank: 8.00
   
 
 ### Submission
