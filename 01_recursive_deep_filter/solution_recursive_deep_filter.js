@@ -1,4 +1,4 @@
-/* note: the function is pre-defined so the function can properly be tested. 
+/* note: the function is pre-defined so the function can properly be tested.
    don't forget to define the function's paramaters
 */
 // function recursiveDeepFilter(arr, callback){
@@ -24,3 +24,26 @@ function recursiveDeepFilter(arr, callback){
     }
     return finalArr;
   }
+
+/* This is a challenging recursive problem! Please review the solution
+
+function recursiveDeepFilter(arr, filter) {
+  if (arr.length === 0) return [];
+
+  if (Array.isArray(arr[0])) {
+    return arr[0]
+      .filter(val => {
+        const vas = recursiveDeepFilter([val], filter);
+        if (vas.length > 0) return vas;
+      })
+      .concat(recursiveDeepFilter(arr.slice(1), filter));
+  }
+
+  let value = filter(arr[0]);
+  if (value === true) {
+    return [arr[0]].concat(recursiveDeepFilter(arr.slice(1), filter));
+  }
+  return [].concat(recursiveDeepFilter(arr.slice(1), filter));
+}
+
+*/

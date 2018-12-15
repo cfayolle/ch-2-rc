@@ -8,8 +8,20 @@ function mapReduce(arr, callback){
     return newArr;
 }
 
+/* For mapReduce, the accumulator would be an array. Then you call the callback on each element
+  and push it into the accumulator like this
+
+  return arr.reduce((accum, curr) => {
+    accum.push(func(curr));
+    return accum;
+  }, []);
+
+*/
+
 function everyReduce(arr, callback){
    return arr.reduce((accum, value)=>{
       return (callback(value))
     }, true)
 }
+
+// good job on everyReduce!
